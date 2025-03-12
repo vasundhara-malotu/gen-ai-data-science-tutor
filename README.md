@@ -1,33 +1,88 @@
-# gen-ai-data-science-tutor
-🤖 GenAI Data Science Tutor 📊
-A conversational AI-powered Data Science Tutor built with Streamlit, LangChain, and Gemini 1.5 Pro. It provides interactive explanations for machine learning, statistics, AI, and Python-related topics.
+# AI Conversational Data Science Tutor
 
-🚀 Features
-✔️ Conversational AI with memory integration
-✔️ Streamlit-based interactive chat interface
-✔️ Powered by Google Gemini 1.5 Pro & LangChain
-✔️ Supports real-time Data Science Q&A
+This is an AI-powered **Conversational Data Science Tutor** built using **Streamlit**, **LangChain**, and **Google Gemini AI**. It provides expert assistance on **data science-related** questions, including Machine Learning, AI, Statistics, and Python.
 
-🛠 Setup & Installation
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/vasundhara-malotu/gen-ai-data-science-tutor.git
-cd gen-ai-data-science-tutor
-2️⃣ Install Dependencies
-bash
-Copy
-Edit
+---
+
+## 🚀 Features
+- **Conversational AI**: Engages users in an interactive Q&A session.
+- **Memory Integration**: Remembers past interactions during a session.
+- **Streamlit UI**: Clean and simple web interface.
+- **Session Management**: Each user gets a unique session ID for chat history.
+- **Google Gemini AI**: Uses `gemini-1.5-pro` for intelligent responses.
+- **Environment Variables**: Secure API key handling using `.env`.
+
+---
+
+## 📦 Installation
+
+### 2️⃣ Create a Virtual Environment (Optional but Recommended)
+```sh
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate    # On Windows
+```
+
+### 3️⃣ Install Dependencies
+```sh
 pip install -r requirements.txt
-3️⃣ Set Up API Key
-Create a .env file and add your Google API key:
-ini
-Copy
-Edit
-GOOGLE_API_KEY=your_api_key_here
-4️⃣ Run the Application
-bash
-Copy
-Edit
+```
+
+### 4️⃣ Set Up API Key
+Create a `.env` file in the root directory and add:
+```sh
+GOOGLE_API_KEY=your_google_api_key_here
+```
+
+---
+
+## ▶️ Running the Application
+Start the Streamlit app using:
+```sh
 streamlit run app.py
+```
+
+This will launch the AI tutor in your browser.
+
+---
+
+## 🛠️ Technologies Used
+- **Python** 🐍
+- **Streamlit** 🖥️
+- **LangChain** 🧠
+- **Google Gemini AI** 🤖
+- **UUID for Session Management** 🔑
+
+---
+
+## 📝 Usage Instructions
+1. Enter your **data science-related** question in the input field.
+2. The AI Tutor responds with a clear explanation.
+3. View the full chat history in the **Expandable Chat History** section.
+4. Click **Clear Chat** to reset the conversation.
+
+⚠️ **Note**: The AI will only answer **data science-related** questions. Any unrelated topics will be politely declined.
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss.
+
+1. Fork the repo.
+2. Create a new branch (`feature-branch`).
+3. Commit your changes.
+4. Push to your fork and submit a PR.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 Acknowledgments
+- Inspired by the power of **AI in Education**.
+- Built with **LangChain & Streamlit** for a seamless experience.
+
+🔗 **Connect & Support**: If you find this useful, give it a ⭐ on GitHub!
+
