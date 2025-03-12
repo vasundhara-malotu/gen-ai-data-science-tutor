@@ -65,24 +65,5 @@ This will launch the AI tutor in your browser.
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss.
-
-1. Fork the repo.
-2. Create a new branch (`feature-branch`).
-3. Commit your changes.
-4. Push to your fork and submit a PR.
-
----
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🌟 Acknowledgments
-- Inspired by the power of **AI in Education**.
-- Built with **LangChain & Streamlit** for a seamless experience.
-
 🔗 **Connect & Support**: If you find this useful, give it a ⭐ on GitHub!
 
